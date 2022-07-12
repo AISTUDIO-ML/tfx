@@ -104,7 +104,6 @@ celerybeat-schedule
 *.sage.py
 
 # Environments
-.env
 .venv
 env/
 venv/
@@ -123,7 +122,6 @@ venv.bak/
 .idea
 
 # VSCode project settings
-.vscode
 
 # mkdocs documentation
 /site
@@ -141,3 +139,9 @@ bazel-*
 **/*_pb2.py
 **/*_pb2_grpc.py
 # LINT.ThenChange(.dockerignore)
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
+config.bat
+node_modules
